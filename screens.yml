@@ -1,0 +1,221 @@
+start: 
+  type: screen
+  text: >-
+    # Welcome to our Europe Quiz!
+    
+    With this quiz we want to test your knowledge TODO
+  next: q_1
+  next_text: Start the quiz 🡢
+q_1: 
+  type: question
+  question: >-
+    ## From which country was the first president of the EU?
+  next: q_1_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_1_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_2
+  next_text: Go to next question 🡢
+
+q_2: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_2_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_2_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_3
+  next_text: Go to next question 🡢
+
+q_3: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_3_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_3_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_4
+  next_text: Go to next question 🡢
+  
+q_4: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_4_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_4_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_5
+  next_text: Go to next question 🡢
+
+q_5: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_5_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_5_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_6
+  next_text: Go to next question 🡢
+
+q_6: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_6_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_6_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_7
+  next_text: Go to next question 🡢
+
+q_7: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_7_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_7_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_8
+  next_text: Go to next question 🡢
+
+q_8: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_8_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_8_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_9
+  next_text: Go to next question 🡢
+
+q_9: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_9_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_9_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: q_10
+  next_text: Go to next question 🡢
+
+q_10: 
+  type: question
+  question: >-
+    ## TODO
+  next: q_10_answer
+  options: 
+    - text: Belgium
+      result: true
+    - text: France
+      result: false
+    - text: Germany
+      result: false
+    - text: Sweden
+      result: false
+q_10_answer:
+  type: screen
+  text: >-
+    The first president TODO
+  next: end
+  next_text: Go to next question 🡢
+
+end: 
+  type: end
+  text: TODO
