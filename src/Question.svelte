@@ -1,6 +1,7 @@
 <script>
   import marked from "marked";
   import Option from "./Option.svelte";
+  import { fly, fade } from "svelte/transition";
 
   export let type;
   export let next;
@@ -21,7 +22,9 @@
 
 </style>
 
-<div class="ui clearing container center aligned segment">
+<div
+  in:fly={{ y: 100, duration: 500 }}
+  class="ui clearing container center aligned segment">
   {@html marked(question)}
   <div class="ui horizontal list">
     {#each shuffle(options) as option}

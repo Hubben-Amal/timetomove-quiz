@@ -1,12 +1,16 @@
 <script>
   import Question from "./Question.svelte";
   import Screen from "./Screen.svelte";
+  import End from "./End.svelte";
+  import Score from "./Score.svelte";
   import { current } from "./state.js";
   import YAML from "yaml";
+  import { fly } from "svelte/transition";
 
   let current_value;
   let loading = true;
   let screens;
+  let max_score = 0;
 
   async function fetchAsync(url) {
     let response = await fetch(url);
@@ -17,6 +21,7 @@
   fetchAsync("./screens.yml").then(file => {
     screens = YAML.parse(file);
     current.set(screens["start"]);
+    max_score = screens["options"].score;
     loading = false;
   });
 
@@ -36,6 +41,9 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <!--
   <link
     rel="stylesheet"
@@ -55,9 +63,18 @@
           <Screen {...current_value} {screens} />
         {:else if current_value['type'] === 'question'}
           <Question {...current_value} {screens} />
+        {:else if current_value['type'] === 'end'}
+          <End {...current_value} />
         {:else}
           <p>not implemented</p>
         {/if}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="ui container">
+        <Score />
       </div>
     </div>
   </div>
