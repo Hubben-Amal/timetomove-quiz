@@ -2,10 +2,42 @@ options:
   score: 10
 start: 
   type: screen
-  text: >-
+  text: |-
     # Welcome to our Europe Quiz!
     
     With this quiz we want to test your knowledge TODO
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+    
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+
+    d
+    d
   next: q_1
   next_text: Start the quiz 🡢
 q_1: 
@@ -206,7 +238,7 @@ q_10_answer:
   text: >-
     TODO
   next: end
-  next_text: Go to next question 🡢
+  next_text: Next 🡢
 
 end: 
   type: end

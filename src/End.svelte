@@ -10,10 +10,16 @@
 </script>
 
 <style>
-
+  .large_text {
+    font-size: 1.5rem;
+  }
 </style>
 
 <div in:fly={{ y: 100, duration: 500 }} class="ui clearing container segment">
-  {@html marked(text)}
-  <a class="ui big teal button" href={submit} target="_blank">{submit_text}</a>
+  <div class="large_text">
+    {@html marked(text)}
+    <a class="ui big teal button" href={submit} target="_blank">
+      {submit_text}
+    </a>
+  </div>
 </div>
