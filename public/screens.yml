@@ -5,45 +5,15 @@ start:
   text: |-
     # Welcome to our Europe Quiz!
     
-    With this quiz we want to test your knowledge TODO
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-    
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-
-    d
-    d
+    In light of the <a href="https://timetomove.eurodesk.eu/" target="_blank">Time to Move</a> campaign we have put together a quick quiz.
+    With this quiz we want to test your knowledge of Europe and the European Union.
+    Don't forget to submit your details at the end to get a chance at winning a great prize!
   next: q_1
   next_text: Start the quiz 🡢
 q_1: 
   type: question
   question: >-
-    ## From which country was the first president of the EU?
+    ## From which country was the first full-time president of the European Council?
   next: q_1_answer
   options: 
     - text: Belgium
@@ -56,8 +26,13 @@ q_1:
       result: false
 q_1_answer:
   type: screen
-  text: >-
-    The first president TODO
+  text: |-
+    On 19 November 2009, Herman Van Rompuy, at that time Prime Minister of **Belgium**, 
+    was appointed the first full-time President of the European Council. 
+    The formal decision on the appointment was made after the Treaty of Lisbon 
+    came into force on 1 December 2009.
+
+    <img class="ui rounded centered medium image" src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Herman_Van_Rompuy_675.jpg" alt="Herman Van Rompuy"/>
   next: q_2
   next_text: Go to next question 🡢
 
@@ -78,7 +53,12 @@ q_2:
 q_2_answer:
   type: screen
   text: >-
-    TODO
+    Funnily enough the **United Kingdom** seemed to have as hard of a time joining the EU than it has leaving it.
+    It was only in 1973 when it officially joined the union. 
+    Although it made efforts to be an EU member, France rejected its application, not just once, but twice. 
+    French President Charles de Gaulle rejected and vetoed the British application both in 1963 and in 1967. 
+
+    <img class="ui rounded centered medium image" src="https://i.redd.it/gf06ce5o4tk11.png" alt="Brexit cartoon"/>    
   next: q_3
   next_text: Go to next question 🡢
 
@@ -98,8 +78,18 @@ q_3:
       result: false
 q_3_answer:
   type: screen
-  text: >-
-    TODO
+  text: |-
+    ## This title goes out the The Czech Republic!
+
+    In 2015, the most recent year for which statistics are available, the Czechs drank 142.4 litres per person. 
+    That's the equivalent of 250 pints or one every 35 hours. 
+    But, given that minors are unlikely to be contributing to that figure, it's safe to assume that the average beer drinker probably guzzles quite a bit more.
+    
+    Full statistics are:
+      1. The Czech Republic - **142,4** l/p
+      2. Germany - **107,0** l/p 
+      3. Ireland - **79,0**  l/p
+      4. Belgium - **72,0** l/p
   next: q_4
   next_text: Go to next question 🡢
   
@@ -117,8 +107,10 @@ q_4:
       result: false
 q_4_answer:
   type: screen
-  text: >-
-    TODO
+  text: |-
+    In 2012, the Norwegian Nobel Committee has decided unanimously to award the **Nobel Peace Prize** to the European Union. 
+    The committee recognized the over six-decade contribution of the EU in the development of peace, equality, reconciliation, and human rights in the continent. 
+    The twist is that Norway is not a member of the European Union.
   next: q_5
   next_text: Go to next question 🡢
 
@@ -136,8 +128,11 @@ q_5:
       result: false
 q_5_answer:
   type: screen
-  text: >-
-    TODO
+  text: |-
+    In 2002, the European Union introduced the Euro currency. 
+    During that time, there were 12 EU member states. 
+    All of their initial letters spell out to **"BAFFLING PIGS"** (Belgium, Austria, Finland, France, Luxembourg, Ireland, Netherlands, Germany, Portugal, Italy, Greece, and Spain). 
+    When five more countries joined, it turned to be *“BEGS PIFFLING SCAMS”*.
   next: q_6
   next_text: Go to next question 🡢
 
@@ -157,8 +152,11 @@ q_6:
       result: false
 q_6_answer:
   type: screen
-  text: >-
-    TODO
+  text: |-
+    There are **24** official languages used in the European Union. 
+    The most commonly used are English, French, and German. 
+    Other languages include Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, Greek, Hungarian, Irish, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, and Swedish. 
+    If there are European parliament debates, sessions, and conferences, official transcripts and documents are translated into all these languages.
   next: q_7
   next_text: Go to next question 🡢
 
@@ -178,9 +176,13 @@ q_7:
       result: false
 q_7_answer:
   type: screen
-  text: >-
-    TODO
-  next: q_8
+  text: |-
+    The European Union that we know today is not as old as you think. 
+    Basically, it was officially created along the passage of the Maastricht Treaty or The Treaty of the European Union in **1992**. 
+    That time, there were only 15 member countries. 
+    However, the union of the European countries started long ago. 
+    First, the European Economic Community was created in the 1950s, which was followed by European Atomic Energy Community (EAEC) and European Atomic Energy Community.
+  next: q_9
   next_text: Go to next question 🡢
 
 q_8: 
@@ -207,7 +209,7 @@ q_8_answer:
 q_9: 
   type: question
   question: >-
-    ## Of which product 70% of its global production happens within the EU?
+    ## Of which product 56% of its global production happens within the EU?
   next: q_9_answer
   options: 
     - text: Wine
@@ -220,8 +222,15 @@ q_9:
       result: false
 q_9_answer:
   type: screen
-  text: >-
-    TODO
+  text: |-
+    The European Union is the Worlds leading producer of **wine**. 
+    Between 2013 and 2018, the average annual production was 167 million hectolitres. 
+    In 2018 it accounts for 43.3% of wine-growing areas, 56% of production, 63.4% of global consumption and 68.5% of exports in global terms.
+  
+    Other statistics:
+    - Beer: 20,4% of global production
+    - Chocolate: 35% of global production
+    - Cheese: 48% of global production
   next: q_10
   next_text: Go to next question 🡢
 
@@ -231,18 +240,28 @@ q_10:
     ## What is the furthest distance you can travel within the European Union without a passport?
   next: q_10_answer
   options: 
-    - text: TODO
+    - text: 5534,5 km
       result: true
+    - text: 8057,7 km
+      result: false
+    - text: 1062,0 km
+      result: false
+    - text: 3083,5 km
+      result: false
 q_10_answer:
   type: screen
-  text: >-
-    TODO
+  text: |-
+    If you start from the northernmost point of the Schengen area (Knivskjelodden, Norway) you could theoretically travel about **5534,5** kilometers down to the southernmost point of the Schengen area (La Restinga, Spain) without needing your passport.
+    
+    <img class="ui rounded centered large image" src="https://www.europarl.europa.eu/resources/library/images/20180223PHT98530/20180223PHT98530_original.jpg" alt="Schengen Area"/>   
+
+    The Schengen Area signifies a zone where 26 European countries, abolished their internal borders, for the free and unrestricted movement of people.
   next: end
   next_text: Next 🡢
 
 end: 
   type: end
-  text: >-
+  text: |-
     # Congratulations on completing the quiz!
 
     You can submit your details to get a chance at winning a prize!
