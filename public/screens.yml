@@ -237,7 +237,7 @@ q_9_answer:
 q_10: 
   type: question
   question: >-
-    ## What is the furthest distance you can travel within the European Union without a passport?
+    ## What is the furthest distance you can travel within the Europe without a passport?
   next: q_10_answer
   options: 
     - text: 5534,5 km
