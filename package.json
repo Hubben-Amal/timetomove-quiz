@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "sirv-cli": "^0.4.4",
     "yaml": "^1.7.1"
   },
